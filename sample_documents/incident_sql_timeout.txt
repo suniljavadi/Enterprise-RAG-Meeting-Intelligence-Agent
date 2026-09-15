@@ -1,0 +1,7 @@
+Incident Report: SQL Timeout INC-204
+
+Summary: The Atlas API experienced elevated latency because a reporting query held database connections longer than expected.
+Impact: Checkout requests timed out for 11 minutes.
+Root cause: Missing index on deployment_history.created_at.
+Resolution: The index was added and the query timeout was reduced to 5 seconds.
+Risks: Similar analytical queries may cause connection pool exhaustion.

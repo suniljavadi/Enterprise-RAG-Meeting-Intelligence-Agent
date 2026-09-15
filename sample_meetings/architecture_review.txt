@@ -1,0 +1,10 @@
+Architecture Review - 2026-09-10
+
+Summary: The team reviewed the Atlas deployment architecture and agreed on a canary release model.
+Decision: Use immutable containers and canary rollout for production deployments.
+Decision: Platform Engineering owns the deployment checklist.
+Action: Prepare deployment checklist Owner: Engineering Team Deadline: 2026-09-20
+Action: Add migration timeout alert Owner: SRE Deadline: 2026-09-18
+Risk: SQL timeout during migration could block requests.
+Dependency: Backup verification must complete before production promotion.
+Question: Should rollback automation restore the database automatically?

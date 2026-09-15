@@ -1,0 +1,34 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag
+      POSTGRES_DB: rag
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rag -d rag"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://rag:rag@db:5432/rag
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+  ui:
+    build: .
+    command: streamlit run streamlit_app/app.py --server.address 0.0.0.0 --server.port 8501
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      - api
+    ports:
+      - "8501:8501"
+volumes:
+  postgres_data:

@@ -1,0 +1,247 @@
+{
+  "questions": 40,
+  "grounded_rate": 0.55,
+  "citation_rate": 0.95,
+  "results": [
+    {
+      "id": "q01",
+      "grounded": true,
+      "confidence": 0.74,
+      "citations": 5
+    },
+    {
+      "id": "q02",
+      "grounded": false,
+      "confidence": 0.35,
+      "citations": 5
+    },
+    {
+      "id": "q03",
+      "grounded": true,
+      "confidence": 0.4,
+      "citations": 3
+    },
+    {
+      "id": "q04",
+      "grounded": true,
+      "confidence": 0.35,
+      "citations": 3
+    },
+    {
+      "id": "q05",
+      "grounded": true,
+      "confidence": 0.54,
+      "citations": 3
+    },
+    {
+      "id": "q06",
+      "grounded": true,
+      "confidence": 0.5,
+      "citations": 5
+    },
+    {
+      "id": "q07",
+      "grounded": true,
+      "confidence": 0.37,
+      "citations": 5
+    },
+    {
+      "id": "q08",
+      "grounded": false,
+      "confidence": 0.6,
+      "citations": 5
+    },
+    {
+      "id": "q09",
+      "grounded": false,
+      "confidence": 0.54,
+      "citations": 5
+    },
+    {
+      "id": "q10",
+      "grounded": true,
+      "confidence": 0.47,
+      "citations": 5
+    },
+    {
+      "id": "q11",
+      "grounded": true,
+      "confidence": 0.46,
+      "citations": 5
+    },
+    {
+      "id": "q12",
+      "grounded": true,
+      "confidence": 0.35,
+      "citations": 1
+    },
+    {
+      "id": "q13",
+      "grounded": false,
+      "confidence": 0.35,
+      "citations": 4
+    },
+    {
+      "id": "q14",
+      "grounded": true,
+      "confidence": 0.46,
+      "citations": 5
+    },
+    {
+      "id": "q15",
+      "grounded": false,
+      "confidence": 0.0,
+      "citations": 0
+    },
+    {
+      "id": "q16",
+      "grounded": true,
+      "confidence": 0.42,
+      "citations": 5
+    },
+    {
+      "id": "q17",
+      "grounded": false,
+      "confidence": 0.42,
+      "citations": 3
+    },
+    {
+      "id": "q18",
+      "grounded": false,
+      "confidence": 0.47,
+      "citations": 5
+    },
+    {
+      "id": "q19",
+      "grounded": false,
+      "confidence": 0.44,
+      "citations": 5
+    },
+    {
+      "id": "q20",
+      "grounded": false,
+      "confidence": 0.35,
+      "citations": 5
+    },
+    {
+      "id": "q21",
+      "grounded": true,
+      "confidence": 0.44,
+      "citations": 5
+    },
+    {
+      "id": "q22",
+      "grounded": true,
+      "confidence": 0.45,
+      "citations": 1
+    },
+    {
+      "id": "q23",
+      "grounded": true,
+      "confidence": 0.4,
+      "citations": 5
+    },
+    {
+      "id": "q24",
+      "grounded": true,
+      "confidence": 0.53,
+      "citations": 5
+    },
+    {
+      "id": "q25",
+      "grounded": false,
+      "confidence": 0.38,
+      "citations": 5
+    },
+    {
+      "id": "q26",
+      "grounded": false,
+      "confidence": 0.43,
+      "citations": 5
+    },
+    {
+      "id": "q27",
+      "grounded": false,
+      "confidence": 0.45,
+      "citations": 4
+    },
+    {
+      "id": "q28",
+      "grounded": true,
+      "confidence": 0.52,
+      "citations": 5
+    },
+    {
+      "id": "q29",
+      "grounded": false,
+      "confidence": 0.6,
+      "citations": 5
+    },
+    {
+      "id": "q30",
+      "grounded": true,
+      "confidence": 0.46,
+      "citations": 5
+    },
+    {
+      "id": "q31",
+      "grounded": false,
+      "confidence": 0.51,
+      "citations": 5
+    },
+    {
+      "id": "q32",
+      "grounded": true,
+      "confidence": 0.35,
+      "citations": 3
+    },
+    {
+      "id": "q33",
+      "grounded": false,
+      "confidence": 0.0,
+      "citations": 0
+    },
+    {
+      "id": "q34",
+      "grounded": false,
+      "confidence": 0.42,
+      "citations": 3
+    },
+    {
+      "id": "q35",
+      "grounded": true,
+      "confidence": 0.49,
+      "citations": 5
+    },
+    {
+      "id": "q36",
+      "grounded": false,
+      "confidence": 0.4,
+      "citations": 1
+    },
+    {
+      "id": "q37",
+      "grounded": true,
+      "confidence": 0.48,
+      "citations": 5
+    },
+    {
+      "id": "q38",
+      "grounded": true,
+      "confidence": 0.39,
+      "citations": 5
+    },
+    {
+      "id": "q39",
+      "grounded": true,
+      "confidence": 0.38,
+      "citations": 2
+    },
+    {
+      "id": "q40",
+      "grounded": false,
+      "confidence": 0.43,
+      "citations": 5
+    }
+  ]
+}
