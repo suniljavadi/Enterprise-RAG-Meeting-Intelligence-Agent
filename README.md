@@ -1,5 +1,7 @@
 # Enterprise RAG & Meeting Intelligence Agent
 
+**Status: Completed portfolio implementation with synthetic documents and deterministic local mode**
+
 A portfolio-ready, production-shaped RAG application for synthetic operational documents and meeting transcripts. It ingests PDF, DOCX, TXT, Markdown, and CSV files; combines semantic and keyword retrieval; returns citations; and exposes meeting decisions, risks, and action items through FastAPI and Streamlit.
 
 > All included content is synthetic. Do not add client, confidential, credential, or proprietary data.
@@ -90,7 +92,7 @@ git init
 git add .
 git commit -m "Build enterprise RAG meeting intelligence agent"
 git branch -M main
-git remote add origin https://github.com/<your-user>/enterprise-rag-agent.git
+git remote add origin https://github.com/suniljavadi/Enterprise-RAG-Meeting-Intelligence-Agent.git
 git push -u origin main
 ```
 
